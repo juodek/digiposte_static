@@ -1,0 +1,17 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" src="tc_data/tc_MireMonCompte_24.js"></script><script id="tc_script__1" type="text/javascript" async="" src="tc_data/bundle.js"></script><iframe target="_self" title="SaleCycle" style="display: none; height: 0px; width: 0px;" src="tc_data/receiver.html"></iframe></head><body>
+<script>
+    function init(event){
+        var tc_vars = event.data.tc_vars;
+        var tagCommanderIframeSrc = event.data.tagCommanderIframeSrc;
+        if(tagCommanderIframeSrc) {
+            var scriptElement = document.createElement('script');
+            scriptElement.type = 'text/javascript';
+            scriptElement.src = tagCommanderIframeSrc;
+            document.head.appendChild(scriptElement);
+        }
+    }
+    window.addEventListener("message", init, false);
+</script>
+
+</body></html>
